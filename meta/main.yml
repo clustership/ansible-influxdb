@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: Philippe HUET
+  description: Install InfluxDB 0.11
+  license: MIT
+  min_ansible_version: 1.8
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  categories:
+  - database
+  - database:nosql
