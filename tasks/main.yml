@@ -19,8 +19,8 @@
   notify:
     - restart influxdb
 
-- name: Start the InfluxDB service
-  service: name=influxdb state=restarted enabled=yes
+#- name: Start the InfluxDB service
+#  service: name=influxdb state=restarted enabled=yes
 
 #- name: Pause for InfluxDB service
 #  pause: seconds=3
